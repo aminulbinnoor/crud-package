@@ -1,6 +1,6 @@
 # Laravel CRUD Generator Package
 
-A simple Laravel library that allows you to create crud operations with a single command
+A simple Laravel 8.* library that allows you to create crud operations with a single command
 
 ## Installation
 ```
