@@ -52,7 +52,7 @@ class CrudGeneratorService
             CrudGeneratorService::GetStubs('Model')
         );
 
-        file_put_contents(app_path("/{$name}.php"), $template);
+        file_put_contents(app_path("/Models/{$name}.php"), $template);
     }
 
     /**
