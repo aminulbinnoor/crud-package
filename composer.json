@@ -1,0 +1,38 @@
+{
+    "name": "aminul/crudgenerator",
+    "description": "A simple Laravel library that allows you to create crud operations with a single command",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aminul",
+            "email": "aminulbinnoor32@gmail.com"
+        }
+    ],
+    "keywords": [        
+        "laravel-8",
+        "laravel-crud-generator",
+        "laravel-api-crud-generator"
+    ],
+    "require": {
+        "php": "^7.0 || ^7.1 || ^7.2 || ^7.3 || ^7.4"
+    },
+    
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Aminul\\CrudGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aminul\\CrudGenerator\\CrudGeneratorServiceProvider"
+            ],
+            "aliases": {
+                "CrudGenerator": "Aminul\\CrudGenerator\\Facades\\CrudGenerator"
+            }
+        }
+    }
+}
